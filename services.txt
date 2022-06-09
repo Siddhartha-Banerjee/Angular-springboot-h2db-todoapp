@@ -1,0 +1,23 @@
+Retrieve all todos for a user
+GET/users/{user_name}/todos
+
+Delete a todo of a user
+DELETE/users/{username}/todos/{id}
+
+Edit/Update a todo
+PUT/users/{user_name}/todos/{todo_id}
+
+Create a new todo
+POST/users/{user_name}/todos/
+
+
+localhost:4200
+http://localhost:4200/todos
+username- user
+password- password
+
+
+localhost:8080/hello
+localhost:8080/hello-bean
+localhost:8080/hello/pv/siddhartha
+http://localhost:8080/users/user/todos
